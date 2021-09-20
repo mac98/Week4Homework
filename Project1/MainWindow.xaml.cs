@@ -1,4 +1,22 @@
-﻿using System;
+﻿/// Chapter No. 3		Exercise No. 1
+/// File Name: Program.cs
+/// @author: Marcus Moore
+/// Date:  September 19, 2021
+///
+/// Problem Statement: Given the monthly payment and principle amount due, calculate how much is paid to interest and
+///                    how much is paid off the principle amount of a mortgage.
+/// 
+/// Overall Plan:
+/// 1) Google the formula for calculating mortgages and find several that involve math outside the scope of an intro
+///    to C# class. Opt instead to blindly guess.
+/// 2) Create two doubles to hold the monthly and principle payments entered into the text boxes. Parse both entries
+///    into doubles.
+/// 3) Create two more doubles to hold the interest payement and amount to deduct from the principle amount.
+/// 4) Calculate the amount paid to interest by multiplying 6.39% against the monthly amount and store it in interest payment.
+/// 5) Calculate the amount paid off of the principle by subtracting the amount paid to interest from the monthly payment.
+/// 6) Display these, as well as the remaining balance.
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
